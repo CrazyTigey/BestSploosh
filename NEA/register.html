@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = 'stylesheet' href = 'register.css'>
+    <script src ='register.js'></script>
+    <title>Ali Eroglu</title>
+</head>
+
+<body>
+    <form class ='form' id ='form'>
+        <h1> Register </h1>
+        <p>Fill in the form to create an account</p>
+        <div class = "rules" id = "rules"> 
+            <strong> Requirnemnts</strong><br></br>
+            <p> Username and password must:</p>
+            <p>-Be between 8 and 20 chaercters</p><br></br>
+            <p>Password must contain:</p>
+            <p>-At least 1 upper and lower case letter</p>
+            <p>-At least 1 number</p>
+
+        </div>
+	    <label for="username">Username:</label>
+		<input type="text" id="username" placeholder = 'unique identifier' name="username"><br><br>
+
+		<label for="password">Password:</label>
+		<input type="password" id="password" placeholder = 'your password' name="password"><br><br>
+
+        <label for="Key Word">Key Word:</label>
+        <input type="password" id ="keyWord" placeholder = 'optional for recovery' name = "keyWord"><br><br>
+        
+        <p1 id = 'errorMessage' class = 'errorMessage'></p1><br></br>
+        <div class = 'swap' id = 'swap'>
+            <i id = 'login'>log in instead</i>
+        </div>
+		<input type="submit" value="Sign Up">
+	</form>
+    </div>
+
+</body>
+</html>

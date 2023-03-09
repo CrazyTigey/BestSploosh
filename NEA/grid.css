@@ -1,0 +1,74 @@
+/* Style the body */
+body {
+    background-color: black;
+  }
+
+
+
+#explaingrid {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+}
+  
+
+.explain{
+    font-size: 20px;      
+    color:white;
+    max-width: 600px;
+}
+  
+  /* Style the grid container */
+.grid{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    width: 30vw;
+    height: 50vh;
+    background-color: transparent;
+  }
+
+  
+  /* Style the grid items */
+  .grid-item, .ggrid-item, .cgrid-item{
+    border: 1px solid rgb(159, 33, 33);
+  }
+  
+  /* Style the clicked grid items */
+  .grid-item.clicked, .ggrid-item.clicked{
+    background-color: rgb(18, 126, 192);
+  }
+
+
+  #explaingrid i{
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    background-color: #0b2037;
+  }
+
+
+.buts{
+    color: white;
+    font-size: 14;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    padding-top: 10%;
+}
+
+.buts p:hover{
+    background-color: rgb(2, 30, 51); /* change the background color to white when hovered */
+    border: 2px solid rgb(1, 204, 255); /* change the border color when hovered */
+    cursor: pointer; /*change cursor type to indicate clickability */ 
+}
+
+.subhead{
+  font: 20px;
+}

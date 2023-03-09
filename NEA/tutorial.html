@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = 'stylesheet' href = 'intro.css'>
+    <link rel = 'stylesheet' href = 'grid.css'>
+    <script src ='tut1.js'></script>
+    <title>Ali Eroglu</title>
+</head>
+<body>
+    <h1 class = greetings>Tutorial</h1>
+    <p class="message">Scroll down when ready<span class="message-hover">Move at your own pace.</span></p>
+
+    <div id = 'explaingrid'>
+    <h1 class ='explain'>Below, is a 6 by 6 gird which is what you will be challanged with in your mission. Have a go at filling in some boxes to get familiar with the mechanics Draw drawing the letter E</h1>
+    <div class = "grid" id="grid-container"> 
+        <div class="grid-item" ></div>
+        <div class="grid-item" ></div>
+        <div class="grid-item" ></div>
+        <div class="grid-item"></div>
+        <div class="grid-item" ></div>
+        <div class="grid-item" ></div>
+        <div class="grid-item" ></div>
+        <div class="grid-item" ></div>
+        <div class="grid-item" ></div>
+        <div class="grid-item" ></div>
+        <div class="grid-item" ></div>
+        <div class="grid-item" ></div>
+        <div class="grid-item" ></div>
+        <div class="grid-item" ></div>
+        <div class="grid-item"></div>
+        <div class="grid-item" ></div>
+        <div class="grid-item" ></div>
+        <div class="grid-item" ></div>
+        <div class="grid-item" ></div>
+        <div class="grid-item" ></div>
+        <div class="grid-item" ></div>
+        <div class="grid-item" ></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item" ></div>
+        <div class="grid-item" ></div>
+        <div class="grid-item" ></div>
+        <div class="grid-item" ></div>
+        <div class="grid-item"></div>
+        <div class="grid-item" ></div>
+        <div class="grid-item" ></div>
+        <div class="grid-item"></div>
+        <div class="grid-item" ></div>
+        <div class="grid-item" ></div>
+        <div class="grid-item" ></div>
+        <div class="grid-item" ></div>
+        <div class = 'buts'>
+            <p id = 'reset1'><i>Reset grid</i></p>
+            </div>
+    </div>
+    </div>
+    <div id = 'explaingrid'>
+        <h1 class ='explain' id = 'subhead'>Rule 1- Gravity</h1>
+        <h1 class ='explain'>'The force of gravity is the force of attraction that holds everything together. Without it, we would be lost in the vast emptiness of space, with no hope of survival.' - Stephen Hawking. Now you will experience garvity. Once again, get used to the controls</h1>
+        <div class = "grid" id="ggrid-container"> <!-- called gg grid because follows a different set of rules. the first g is for gravity-->
+            <div class="ggrid-item" data-row="1" data-col="1" id="0"></div>
+            <div class="ggrid-item" data-row="1" data-col="2" id="1"></div>
+            <div class="ggrid-item" data-row="1" data-col="3" id="2"></div>
+            <div class="ggrid-item" data-row="1" data-col="4" id="3"></div>
+            <div class="ggrid-item" data-row="1" data-col="5" id="4"></div>
+            <div class="ggrid-item" data-row="1" data-col="6" id="5"></div>
+            <div class="ggrid-item" data-row="2" data-col="1" id="6"></div>
+            <div class="ggrid-item" data-row="2" data-col="2" id="7"></div>
+            <div class="ggrid-item" data-row="2" data-col="3" id="8"></div>
+            <div class="ggrid-item" data-row="2" data-col="4" id="9"></div>
+            <div class="ggrid-item" data-row="2" data-col="5" id="10"></div>
+            <div class="ggrid-item" data-row="2" data-col="6" id="11"></div>
+            <div class="ggrid-item" data-row="3" data-col="1" id="12"></div>
+            <div class="ggrid-item" data-row="3" data-col="2" id="13"></div>
+            <div class="ggrid-item" data-row="3" data-col="3" id="14"></div>
+            <div class="ggrid-item" data-row="3" data-col="4" id="15"></div>
+            <div class="ggrid-item" data-row="3" data-col="5" id="16"></div>
+            <div class="ggrid-item" data-row="3" data-col="6" id="17"></div>
+            <div class="ggrid-item" data-row="4" data-col="1" id="18"></div>
+            <div class="ggrid-item" data-row="4" data-col="2" id="19"></div>
+            <div class="ggrid-item" data-row="4" data-col="3" id="20"></div>
+            <div class="ggrid-item" data-row="4" data-col="4" id="21"></div>
+            <div class="ggrid-item" data-row="4" data-col="5" id="22"></div>
+            <div class="ggrid-item" data-row="4" data-col="6" id="23"></div>
+            <div class="ggrid-item" data-row="5" data-col="1" id="24"></div>
+            <div class="ggrid-item" data-row="5" data-col="2" id="25"></div>
+            <div class="ggrid-item" data-row="5" data-col="3" id="26"></div>
+            <div class="ggrid-item" data-row="5" data-col="4" id="27"></div>
+            <div class="ggrid-item" data-row="5" data-col="5" id="28"></div>
+            <div class="ggrid-item" data-row="5" data-col="6" id="29"></div>
+            <div class="ggrid-item" data-row="6" data-col="1" id="30"></div>
+            <div class="ggrid-item" data-row="6" data-col="2" id="31"></div>
+            <div class="ggrid-item" data-row="6" data-col="3" id="32"></div>
+            <div class="ggrid-item" data-row="6" data-col="4" id="33"></div>
+            <div class="ggrid-item" data-row="6" data-col="5" id="34"></div>
+            <div class="ggrid-item" data-row="6" data-col="6" id="35"></div>
+            <div class = 'buts'>
+                <p id = 'reset2'><i>Reset grid</i></p>
+                </div>
+        </div>
+
+        <div id = 'explaingrid'>
+            <h1 class ='explain' id = 'subhead'>Rule 2- Borders</h1>
+            <h1 class ='explain'>As you may be able to notice this grid is different: it has some thicker and brighter borders. Water particles cannot travel through solid impermeable blocks therefore have a go at seeing what happens.</h1>
+            <div class = "grid" id="cgrid-container"> <!-- called gg grid because follows a different set of rules. the first g is for gravity-->
+                <div class="cgrid-item" data-row="1" data-col="1" id="0"></div>
+                <div class="cgrid-item" data-row="1" data-col="2" id="1"></div>
+                <div class="cgrid-item" data-row="1" data-col="3" id="2"></div>
+                <div class="cgrid-item" data-row="1" data-col="4" id="3"></div>
+                <div class="cgrid-item" data-row="1" data-col="5" id="4"></div>
+                <div class="cgrid-item" data-row="1" data-col="6" id="5"></div>
+                <div class="cgrid-item" data-row="2" data-col="1" id="6"></div>
+                <div class="cgrid-item" data-row="2" data-col="2" id="7"></div>
+                <div class="cgrid-item" data-row="2" data-col="3" id="8"></div>
+                <div class="cgrid-item" data-row="2" data-col="4" id="9"></div>
+                <div class="cgrid-item" data-row="2" data-col="5" id="10"></div>
+                <div class="cgrid-item" data-row="2" data-col="6" id="11"></div>
+                <div class="cgrid-item" data-row="3" data-col="1" id="12"></div>
+                <div class="cgrid-item" data-row="3" data-col="2" id="13"></div>
+                <div class="cgrid-item" data-row="3" data-col="3" id="14"></div>
+                <div class="cgrid-item" data-row="3" data-col="4" id="15"></div>
+                <div class="cgrid-item" data-row="3" data-col="5" id="16"></div>
+                <div class="cgrid-item" data-row="3" data-col="6" id="17"></div>
+                <div class="cgrid-item" data-row="4" data-col="1" id="18"></div>
+                <div class="cgrid-item" data-row="4" data-col="2" id="19"></div>
+                <div class="cgrid-item" data-row="4" data-col="3" id="20"></div>
+                <div class="cgrid-item" data-row="4" data-col="4" id="21"></div>
+                <div class="cgrid-item" data-row="4" data-col="5" id="22"></div>
+                <div class="cgrid-item" data-row="4" data-col="6" id="23"></div>
+                <div class="cgrid-item" data-row="5" data-col="1" id="24"></div>
+                <div class="cgrid-item" data-row="5" data-col="2" id="25"></div>
+                <div class="cgrid-item" data-row="5" data-col="3" id="26"></div>
+                <div class="cgrid-item" data-row="5" data-col="4" id="27"></div>
+                <div class="cgrid-item" data-row="5" data-col="5" id="28"></div>
+                <div class="cgrid-item" data-row="5" data-col="6" id="29"></div>
+                <div class="cgrid-item" data-row="6" data-col="1" id="30"></div>
+                <div class="cgrid-item" data-row="6" data-col="2" id="31"></div>
+                <div class="cgrid-item" data-row="6" data-col="3" id="32"></div>
+                <div class="cgrid-item" data-row="6" data-col="4" id="33"></div>
+                <div class="cgrid-item" data-row="6" data-col="5" id="34"></div>
+                <div class="cgrid-item" data-row="6" data-col="6" id="35"></div>
+                <div class = 'buts'>
+                    <p id = 'reset2'><i>Reset grid</i></p>
+                    </div>
+            </div>
+</body>
+</html>

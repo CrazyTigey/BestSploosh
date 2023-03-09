@@ -1,0 +1,103 @@
+/* Style for the body */
+body {
+    background-color: #07112c;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+/* Style for the form */
+form {
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+    background-color: rgb(17, 34, 90);
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+  }
+  
+
+/* Style for the label */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Style for the input fields */
+input[type=text], input[type=password] {
+    font-size: medium;
+    color:rgb(204, 0, 255);
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    background-color: rgb(7, 15, 70) ;
+    color: white;
+    font-size: 24px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    margin-bottom: 12px;
+    float: right;
+    margin-top: -50px;
+    margin-left: -20px;
+}
+
+input[type=submit]:hover {
+    background-color: #01CCFF;
+    border: 2px solid #01CCFF;
+}
+
+/* Style for the error message */
+.errorMessage {
+    color: red;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+/* Style for the rules div */
+.rules {
+    float: right;
+    width: 40%;
+    margin-left: 102px;
+    margin-right: 10px;
+    color: white;
+    font-size: 16px;
+    align-items: center;
+    padding: 10px;
+    padding-top: 2%;
+    background-color: rgb(7, 15, 70);
+    border: 5px solid rgb(1, 204, 255);
+    cursor: help; 
+}
+
+.rules p {
+    margin: 0;
+    padding: 5px;
+}
+
+/*swap between login and register*/
+.swap, .login, .reg, .recover{
+    color: white;
+    font-size: 12px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    padding: 5px;
+}
+
+.swap i:hover, .login i:hover, .reg i:hover, .recover i:hover{
+    background-color: rgb(2, 30, 51);
+    border: 2px solid rgb(1, 204, 255);
+    cursor: pointer;
+}

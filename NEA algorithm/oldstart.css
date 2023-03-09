@@ -1,0 +1,49 @@
+*{
+    background-color: black; /*sets the background color to black */ 
+}
+
+.titleBlock{
+    color: white;
+    font-size: 100px;
+    /*centre the titleBlock */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px; /* add this to create a thick container around the button */
+    padding-top: 20%;
+}
+
+.titleBlock p:hover{
+    background-color: rgb(2, 30, 51); /* change the background color to white when hovered */
+    border: 5px solid rgb(1, 204, 255); /* change the border color when hovered */
+    cursor: pointer; /*change cursor type to indicate clickability */
+}
+
+
+
+
+.message {
+  position: relative;
+  font-size: 20px;
+  color: white;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+}
+
+.message:hover {
+  color: rgb(1, 204, 255);
+  cursor: pointer;
+}
+
+.message:hover .message-hover {
+  opacity: 1;
+}
+
+.message-hover {
+  position: absolute;
+  color: rgb(1, 204, 255);
+  opacity: 0;
+  top: 0;
+  left: 0;
+  cursor: not-allowed;
+}

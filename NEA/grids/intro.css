@@ -1,0 +1,151 @@
+*{
+    background-color: black; /*sets the background color to black */ 
+}
+
+.titleBlock{
+    color: white;
+    font-size: 100px;
+    /*centre the titleBlock */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px; /* add this to create a thick container around the button */
+    padding-top: 10%;
+}
+
+.titleBlock p:hover{
+    background-color: rgb(2, 30, 51); /* change the background color to white when hovered */
+    border: 5px solid rgb(1, 204, 255); /* change the border color when hovered */
+    cursor: pointer; /*change cursor type to indicate clickability */ 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.door{
+    position: relative;
+    color:white;
+}
+.door:hover::after {
+    content: attr(data-message);
+    font: Apple Chancery;
+    position: absolute;
+    top: 100%; 
+    left: 50%;
+    transform: translate(-50%, 30%);
+    font-size: 25px;
+    color: white;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 5px;
+    width: 750px;
+}
+
+.message {
+    position: relative;
+    font-size: 20px;
+    color: white;
+    transition: all 0.2s ease-in-out;
+    display: inline-block;
+  }
+  
+  .message:hover {
+    color: rgb(1, 204, 255);
+    cursor: pointer;
+  }
+  
+  .message:hover .message-hover {
+    opacity: 1;
+  }
+  
+  .message-hover {
+    position: absolute;
+    color: rgb(1, 204, 255);
+    opacity: 0;
+    top: 0;
+    left: 0;
+    cursor: not-allowed;
+  }
+  
+  
+body{
+    padding-bottom: 300px;
+}
+.home{
+    color: white;
+    font-size: 12px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    padding: 5px;
+}
+
+.home i:hover{
+    background-color: rgb(2, 30, 51);
+    border: 2px solid rgb(1, 204, 255);
+    cursor: pointer;
+}
+
+.greetings {
+    position: absolute;
+    color: white;
+    font: bold 40px Consolas, monospace;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+.profile {
+  margin: 50px auto;
+  padding: 20px;
+  max-width: 600px;
+  background-color: #0b2037;
+  border-radius: 10px;
+  height: 650px;
+}
+
+.profile h2 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+  background-color: #0b2037;
+}
+
+.profile p {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+  background-color: #0b2037;
+}
+
+.profile span {
+  font-weight: bold;
+  color: pink;
+  background-color: #0b2037;
+}
+
+#revealbut {
+  padding: 0;
+  background-color: transparent;
+  }
+
+#homer{
+  background-color: transparent;
+}
+
+.titleBlock p+p{
+  margin-top: 100px;
+}
+
+
+
